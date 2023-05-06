@@ -27,7 +27,6 @@ function screenState(MQ) {
       sharePopUp.style.opacity = 1;
       overlay.style.zIndex = 2;
       overlay.addEventListener('click', function () {
-        console.log('kar nmikone');
         sharePopUp.style.opacity = 0;
         overlay.style.zIndex = -2;
       });
